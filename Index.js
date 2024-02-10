@@ -30,7 +30,7 @@ function password(obj) {
   else return obj.siteName.charAt(0).toUpperCase() + obj.siteName.slice(1) + "#" + obj.name + "@" + obj.birthYear;
 }
 
-//Monthly Savings of a Freelancer
+// Monthly Savings of a Freelancer
 function monthlySavings(arr, livingCost) {
   if (!(Array.isArray(arr)) || !(typeof livingCost == "number")) return "invalid input";
   let totalIncome = 0;
